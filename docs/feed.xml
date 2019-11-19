@@ -4,13 +4,26 @@
   <id>http://cabbagekobe.info</id>
   <link href="http://cabbagekobe.info"/>
   <link href="http://cabbagekobe.info/feed.xml" rel="self"/>
-  <updated>2018-07-11T00:00:00+09:00</updated>
+  <updated>2019-11-19T00:00:00+09:00</updated>
+  <entry>
+    <title>middleman-blog、そろそろきつそうなので移行先考えたい。</title>
+    <link rel="alternate" href="http://cabbagekobe.info/2019-11-19-middleman-blog-turai/"/>
+    <id>http://cabbagekobe.info/2019-11-19-middleman-blog-turai/</id>
+    <published>2019-11-19T00:00:00+09:00</published>
+    <updated>2019-11-19T21:19:49+09:00</updated>
+    <content type="html">http://cabbagekobe.info&lt;p&gt;ブログとは……&lt;/p&gt;
+
+&lt;p&gt;middleman-blog、そろそろきつそうなので移行先考えたい。&lt;/p&gt;
+
+&lt;p&gt;アイキャッチは特に無&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>2018年夏始まったのでアイドルの水着MVまとめ</title>
     <link rel="alternate" href="http://cabbagekobe.info/2018-07-11-2018natsu/"/>
     <id>http://cabbagekobe.info/2018-07-11-2018natsu/</id>
     <published>2018-07-11T00:00:00+09:00</published>
-    <updated>2018-07-11T22:58:35+09:00</updated>
+    <updated>2019-11-19T21:16:44+09:00</updated>
     <content type="html">http://cabbagekobe.info&lt;p&gt;観測史上最速の梅雨明けで迎えた平成最後の夏2018！&lt;br /&gt;
 今年もアイドル（一部＋アルファ）がMVで水着になっている！！！！！！&lt;/p&gt;
 
@@ -98,10 +111,10 @@ MVなんですけど、KAI-YOUで作らせていただいたんでみんな見�
   </entry>
   <entry>
     <title>2018年DJMixが流行っている。</title>
-    <link rel="alternate" href="http://cabbagekobe.info/2018-04-18-invouge_mix/"/>
-    <id>http://cabbagekobe.info/2018-04-18-invouge_mix/</id>
+    <link rel="alternate" href="http://cabbagekobe.info/2018-04-18-invouge-mix/"/>
+    <id>http://cabbagekobe.info/2018-04-18-invouge-mix/</id>
     <published>2018-04-18T00:00:00+09:00</published>
-    <updated>2018-07-11T22:56:40+09:00</updated>
+    <updated>2019-11-19T21:21:26+09:00</updated>
     <content type="html">http://cabbagekobe.info&lt;p&gt;先日ばってん子に大野菜祭というイベント誘ってもらったりとか、&lt;br /&gt;
 新年会でやったりとか2017に行った法政JoYのイベントでやったりとかで最近楽しんでやれてるのでDJMixアップしました。頑張りました！&lt;/p&gt;
 
@@ -117,7 +130,7 @@ MVなんですけど、KAI-YOUで作らせていただいたんでみんな見�
 
 &lt;h1 id="dj四捨五入24hours"&gt;DJ四捨五入24HOURS&lt;/h1&gt;
 
-&lt;p&gt;&lt;img src="/2018-04-18-invouge_mix/index/24hours.jpg" alt="DJ24hours.png" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/2018-04-18-invouge-mix/index/24hours.jpg" alt="DJ24hours.png" /&gt;&lt;/p&gt;
 
 &lt;p&gt;5月3日の午前7時から5月4日の朝7時までの24時間、DJ四捨五入さん（エレクトリックリボンのerica）主催によるイベント……狂ってる……&lt;/p&gt;
 

@@ -3,7 +3,7 @@ title: 2018年夏始まったのでアイドルの水着MVまとめ
 date: 2018-07-11
 author: cabbagekobe
 eyecatch: eyecatch.jpg
-og_image: http://cabbagekobe.info/2018-07-11-2018natsu/index/eyecatch.jpg
+og_image: https://cabbagekobe.info/2018-07-11-2018natsu/index/eyecatch.jpg
 category:
 - アイドル
 - 虹のコンキスタドール

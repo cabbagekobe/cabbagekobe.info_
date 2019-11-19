@@ -3,7 +3,7 @@ title: 2018年DJMixが流行っている。
 date: 2018-04-18
 author: cabbagekobe
 eyecatch: eyecatch.jpg
-og_image: http://cabbagekobe.info/2018-04-18-invouge_mix/index/eyecatch.jpg
+og_image: https://cabbagekobe.info/2018-04-18-invouge-mix/index/eyecatch.jpg
 category:
 - Mixcloud
 - DJMix
@@ -25,7 +25,7 @@ category:
 DJ四捨五入24HOURS
 =======================================================
 
-![DJ24hours.png](/2018-04-18-invouge_mix/index/24hours.jpg)
+![DJ24hours.png](/2018-04-18-invouge-mix/index/24hours.jpg)
 
 
 5月3日の午前7時から5月4日の朝7時までの24時間、DJ四捨五入さん（エレクトリックリボンのerica）主催によるイベント……狂ってる……
