@@ -1,0 +1,70 @@
+// =========================================================
+//     Base
+// =========================================================
+* {
+  &, &:before, &:after {
+    box-sizing: border-box;
+  }
+}
+
+html {
+  font-family: 'AppleSystem', sans-serif;
+  font-size: calc(14px + 0.24vw);
+  height: 100%;
+  line-height: $base-line-height;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding: 0;
+  width: 100%;
+  word-wrap: break-word;
+}
+
+body {
+  color: $text;
+  margin: 0;
+  word-break: break-all;
+}
+
+strong {
+  font-weight: bold;
+}
+
+img {
+  border-style: none;
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+a {
+  -webkit-text-decoration-skip: objects;
+  background-color: transparent;
+  color: $text-link;
+  text-decoration: none;
+
+  &:hover {
+    color: $text-link-hover;
+    text-decoration: underline;
+  }
+
+  &:focus {
+  }
+
+  &:active {
+  }
+
+  &:visited {
+  }
+}
+
+::selection {
+}
+
+ul, ol {
+  letter-spacing: -0.4em;
+
+  li {
+    letter-spacing: normal;
+  }
+}

@@ -1,0 +1,1 @@
+var imgs=document.querySelectorAll("p img");Object.keys(imgs).forEach(function(e){imgs[e].parentNode.className="img-responsive"});
