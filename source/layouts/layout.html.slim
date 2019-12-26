@@ -23,6 +23,8 @@ html lang="ja"
     meta content="#{meta_title}"       name="twitter:title"
     meta content="#{meta_description}" name="twitter:description"
 
+    meta content="OM8D5sVtLkuGYsExksokessS9oh75Jxl-hHe2JWSOgM" name="google-site-verification"
+
     = stylesheet_link_tag "all"
   body
     javascript:
@@ -42,20 +44,3 @@ html lang="ja"
     javascript:
     = javascript_include_tag "all"
     script async="true" src="//platform.twitter.com/widgets.js" charset="utf-8"
-
-    / aside
-    /   h2 Recent Articles
-    /   ol
-    /     - blog.articles[0...10].each do |article|
-    /       li
-    /         = link_to article.title, article
-    /         span= article.date.strftime('%b %e')
-    /   h2 Tags
-    /   ol
-    /     - blog.tags.each do |tag, articles|
-    /       li
-    /         = link_to "\##{tag} (#{articles.size})", tag_path(tag)
-    /   h2 By Year
-    /   ol
-    /     - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
-    /       li= link_to "#{year} (#{articles.size})", blog_year_path(year)
