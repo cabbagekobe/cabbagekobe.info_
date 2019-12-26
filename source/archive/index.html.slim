@@ -1,0 +1,14 @@
+---
+pageable: true
+per_page: 1000
+---
+
+- page_articles.each_with_index do |article, i|
+  main.m-contents-main role="main"
+    header.m-contents-main-header
+      h2.m-contents-main-header-title
+        = link_to article.title, article
+      .m-contents-main-header-meta
+        time.m-contents-main-header-meta-time
+          = article.date.strftime('%Y/%m/%d')
+

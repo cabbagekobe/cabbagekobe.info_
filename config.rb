@@ -52,7 +52,7 @@ activate :blog do |blog|
   blog.layout = "article"
 
   blog.paginate = true
-  blog.per_page = 1
+  blog.per_page = 15
   blog.page_link = "page/{num}"
 end
 
