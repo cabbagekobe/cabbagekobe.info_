@@ -7,7 +7,7 @@ per_page: 1
   main.m-contents-main role="main"
     header.m-contents-main-header
       h2.m-contents-main-header-title
-        = link_to article.title, article
+        = article.title
       .m-contents-main-header-meta
         time.m-contents-main-header-meta-time
           = article.date.strftime('%Y/%m/%d')
