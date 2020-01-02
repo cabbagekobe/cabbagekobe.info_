@@ -1,11 +1,11 @@
 =wrap_layout :layout do
   main.m-contents-main role="main"
     header.m-contents-main-header
-      h1.m-contents-main-header-title
-        = current_page.title
       .m-contents-main-header-meta
         time.m-contents-main-header-meta-time
           = current_page.date.strftime('%Y/%m/%d')
+      h1.m-contents-main-header-title
+        = current_page.title
 
     - if article_eyecatch(current_page)
       figure.m-contents-main-eyecatch
