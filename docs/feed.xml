@@ -4,7 +4,20 @@
   <id>http://cabbagekobe.info</id>
   <link href="http://cabbagekobe.info"/>
   <link href="http://cabbagekobe.info/feed.xml" rel="self"/>
-  <updated>2020-01-01T00:00:00+09:00</updated>
+  <updated>2020-01-14T00:00:00+09:00</updated>
+  <entry>
+    <title>1月14日くらいのはなし</title>
+    <link rel="alternate" href="http://cabbagekobe.info/2020-01-14-0114/"/>
+    <id>http://cabbagekobe.info/2020-01-14-0114/</id>
+    <published>2020-01-14T00:00:00+09:00</published>
+    <updated>2020-01-14T16:51:50+09:00</updated>
+    <content type="html">http://cabbagekobe.info&lt;h2 id="リングフィット-アドベンチャー購入"&gt;リングフィット アドベンチャー購入&lt;/h2&gt;
+
+&lt;p&gt;1月の目標であったリングフィットアドベンチャー購入。たまたまAmazonを覗いたタイミングで定価での在庫あり。&lt;/p&gt;
+
+&lt;p&gt;習慣化していきたいと思う。&lt;/p&gt;
+</content>
+  </entry>
   <entry>
     <title>1月1日くらいのはなし</title>
     <link rel="alternate" href="http://cabbagekobe.info/2020-01-01-0101/"/>
@@ -2774,91 +2787,6 @@
 &lt;hr /&gt;
 
 &lt;p&gt;ていうか明日から渋だ〜本当に楽しみ。約束の地。&lt;/p&gt;
-</content>
-  </entry>
-  <entry>
-    <title>12月4日くらいのはなし</title>
-    <link rel="alternate" href="http://cabbagekobe.info/2019-12-04-1204/"/>
-    <id>http://cabbagekobe.info/2019-12-04-1204/</id>
-    <published>2019-12-04T00:00:00+09:00</published>
-    <updated>2019-12-17T11:05:35+09:00</updated>
-    <content type="html">http://cabbagekobe.info&lt;p&gt;お昼時間に社長のポケモンバトルを見る。&lt;/p&gt;
-
-&lt;p&gt;今回のポケモン、直前まで買うつもりだったけども買うのをやめしまったんだよなぁ。  &lt;br /&gt;
-やっぱすげー楽しそう。とはいえ昨今のポケモンはストーリークリアしたあとがメイン（ポケモンバトルとか）、ワイはもう負けるゲームはしばらくしたくないんや…（スマブラがキツイ）&lt;/p&gt;
-
-&lt;h5 id="12月1日から12月4日までに購入した漫画"&gt;12月1日から12月4日までに購入した漫画&lt;/h5&gt;
-
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;タイトル&lt;/th&gt;
-      &lt;th&gt;作者&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;別式 5巻&lt;/td&gt;
-      &lt;td&gt;TAGRO&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;スライムライフ 7巻&lt;/td&gt;
-      &lt;td&gt;メガサワラ&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ワールドトリガー 21巻&lt;/td&gt;
-      &lt;td&gt;葦原大介&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 8巻&lt;/td&gt;
-      &lt;td&gt;古橋秀之&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;鬼滅の刃 18巻&lt;/td&gt;
-      &lt;td&gt;吾峠呼世晴&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;アクタージュ act-age 9巻&lt;/td&gt;
-      &lt;td&gt;マツキタツヤ&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;青のフラッグ 7巻&lt;/td&gt;
-      &lt;td&gt;KAITO&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;CANDY&amp;amp;CIGARETTES 5巻&lt;/td&gt;
-      &lt;td&gt;井上智徳&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;水は海に向かって流れる 1巻&lt;/td&gt;
-      &lt;td&gt;田島列島&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;解体屋ゲン 63巻&lt;/td&gt;
-      &lt;td&gt;石井 さだよし&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;p&gt;忘れないようにメモっておこうと思います。&lt;/p&gt;
-
-&lt;h5 id="少しcssを変更"&gt;少しCSSを変更&lt;/h5&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;ベースのフォントサイズの変更
-    &lt;ul&gt;
-      &lt;li&gt;calc (14px + 0.24vw → 16px + 0.24vw)&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;本文の横幅を大きく&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;水曜日は会社全員でご飯を食べる日。ココイチ。  &lt;br /&gt;
-もうココイチのカレーは見たくない。  &lt;br /&gt;
-会社近所のココイチまだコースター残っておりありがたいです。&lt;/p&gt;
-
-&lt;p&gt;家に帰って録画消化してDiablo3やりながら寝る。  &lt;br /&gt;
-今シーズンはシーズンジャーニークリアしたい。&lt;/p&gt;
 </content>
   </entry>
 </feed>
