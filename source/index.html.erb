@@ -1,0 +1,59 @@
+---
+pageable: true
+per_page: 1
+---
+
+<% page_articles.each_with_index do |article, i| %>
+  <main class="m-contents-main" role="main">
+    <header class="m-contents-main-header">
+      <div class="m-contents-main-header-meta">
+        <time class="m-contents-main-header-meta-time">
+          <%= article.date.strftime('%Y/%m/%d') %>
+        </time>
+      </div>
+      <h1 class="m-contents-main-header-title">
+        <%= link_to article.title, article %>
+      </h1>
+    </header>
+
+    <% if article_eyecatch(article) %>
+      <figure class="m-contents-main-eyecatch">
+        <img src="<%= article_eyecatch(article) %>" alt="<%= article.title %>">
+      </figure>
+    <% end %>
+
+    <div class="m-contents-main-body">
+      <%= article.body %>
+    </div>
+  </main>
+
+  <% prev_page = prev_page() %>
+  <% next_page = next_page() %>
+
+  <% if next_page || prev_page %>
+    <div class="l-paginate">
+      <div class="m-paginate">
+        <% if next_page %>
+          p.m-paginate-next
+          = link_to next_page.title, "/#{next_page.path}"
+        <% end %>
+
+        <% if prev_page %>
+          p.m-paginate-prev
+          = link_to prev_page.title, "/#{prev_page.path}"
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+
+<% end %>
+
+<% if blog.articles[1] %>
+  <div class="l-paginate">
+    <div class="m-paginate">
+      <p class="m-paginate-prev">
+        <%= link_to blog.articles[1].title, blog.articles[1] %>
+      </p>
+    </div>
+  </div>
+<% end %>

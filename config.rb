@@ -78,9 +78,12 @@ configure :build do
   ignore "helpers/*"
   ignore "partials/*"
 
-  # For example, change the Compass output style for deployment
+  # Minify StyleSheet on build
   activate :minify_css
 
   # Minify Javascript on build
   activate :minify_javascript
+
+  # Minify html on build
+  activate :minify_html
 end

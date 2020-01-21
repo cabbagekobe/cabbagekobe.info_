@@ -1,0 +1,44 @@
+<% wrap_layout :layout do %>
+  <main class="m-contents-main" role="main">
+    <header class="m-contents-main-header">
+      <div class="m-contents-main-header-meta">
+        <time class="m-contents-main-header-meta-time">
+          <%= current_page.date.strftime('%Y/%m/%d') %>
+        </time>
+      </div>
+      <h1 class="m-contents-main-header-title">
+        <%= link_to current_page.title %>
+      </h1>
+    </header>
+
+    <% if article_eyecatch(current_page) %>
+      <figure class="m-contents-main-eyecatch">
+        <img src="<%= article_eyecatch(current_page) %>" alt="<%= current_page.title %>">
+      </figure>
+    <% end %>
+
+    <div class="m-contents-main-body">
+      <%= yield %>
+    </div>
+  </main>
+
+  <% prev_page = prev_page() %>
+  <% next_page = next_page() %>
+  <% if next_page || prev_page %>
+    <div class="l-paginate">
+      <div class="m-paginate">
+        <% if next_page %>
+          <p class="m-paginate-next">
+            <%= link_to next_page.title, "/#{next_page.path}" %>
+          </p>
+        <% end %>
+
+        <% if prev_page %>
+          <p class="m-paginate-prev">
+            <%= link_to prev_page.title, "/#{prev_page.path}" %>
+          </p>
+        <% end %>
+      </div>
+    </div>
+  <% end %>
+<% end %>
