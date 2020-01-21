@@ -1,43 +1,43 @@
 // Header
 // ---------------------------------
 h1 {
-  font-size: $base-font-size * 1.6;
+  font-size: $base-font-size * 1.8;
   font-weight: bold;
   margin-bottom: $base-font-size * 0.75;
-  margin-top: $base-font-size * 0.75;
+  margin-top: $base-font-size * 1;
 }
 
 h2 {
-  font-size: $base-font-size * 1.45;
+  font-size: $base-font-size * 1.6;
   font-weight: bold;
   margin-bottom: $base-font-size * 0.5;
-  margin-top: $base-font-size * 1.5;
+  margin-top: $base-font-size * 1.8;
 }
 
 h3 {
-  font-size: $base-font-size * 1.3;
+  font-size: $base-font-size * 1.45;
+  font-weight: bold;
+  margin-bottom: $base-font-size * 0.75;
+  margin-top: $base-font-size * 1.7;
+}
+
+h4 {
+  font-size: $base-font-size * 1.30;
   font-weight: bold;
   margin-bottom: $base-font-size * 0.75;
   margin-top: $base-font-size * 1.5;
 }
 
-h4 {
+h5 {
   font-size: $base-font-size * 1.15;
   font-weight: bold;
   margin-bottom: $base-font-size * 0.75;
-  margin-top: $base-font-size * 1.45;
-}
-
-h5 {
-  font-size: $base-font-size * 1;
-  font-weight: bold;
-  margin-bottom: $base-font-size * 0.75;
-  margin-top: $base-font-size * 1.45;
+  margin-top: $base-font-size * 1.5;
 }
 
 h6 {
   font-size: $base-font-size * 1;
-  font-weight: normal;
+  font-weight: bold;
   margin-bottom: $base-font-size * 0.75;
   margin-top: $base-font-size * 1.25;
 }
@@ -48,6 +48,10 @@ p {
   font-size: $base-font-size * 1;
   margin-bottom: $base-font-size * 0.5;
   margin-top: $base-font-size * 1;
+}
+
+h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
+  margin-top: $base-font-size * 0.5;
 }
 
 // Small
