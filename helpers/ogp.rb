@@ -24,28 +24,26 @@ end
 
 def og_image
   if current_article then
-    unless current_article.data.og_image == nil then
-      return current_article.data.og_image
+    unless current_article.data.eyecatch == nil then
+      return data.blog.url + current_page.url + "index/" + current_article.data.eyecatch
     end
   elsif blog.articles[0]
-    unless blog.articles[0].data.og_image == nil then
-      return blog.articles[0].data.og_image
+    unless blog.articles[0].data.eyecatch == nil then
+      return data.blog.url + blog.articles[0].url + "index/" + blog.articles[0].data.eyecatch
     end
   end
 
-  return "http://cabbagekobe.info/src/img/ogp.png"
+  return "https://cabbagekobe.info/src/img/ogp.png"
 end
 
 def og_url
   if current_article then
-    blog_url = url_for current_page
+    blog_url = data.blog.url + current_page.url
   elsif blog.articles[0]
-    blog_url = blog.articles[0]
+    blog_url = data.blog.url + blog.articles[0].url
   else
-    blog_url = nil
+    blog_url = data.blog.url
   end
 
-  url = data.blog.url
-
-  return url
+  return blog_url
 end
