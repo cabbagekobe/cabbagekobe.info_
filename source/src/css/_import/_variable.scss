@@ -7,7 +7,13 @@ $text-link-hover: lighten($text-link, 20%);
 
 $white: #FFFFFF;
 
+$main-color:  #5EB954;
+$main-accent: darken($main-color, 18.5%);
+$main-soft:   lighten($main-color, 21%);
+$main-exSoft: lighten($main-color, 42%);
+
 $border: 1px solid #CCCCCC;
+
 
 // Border Radius
 // ---------------------------------
@@ -17,3 +23,4 @@ $border-radius: 3px;
 // ---------------------------------
 $base-font-size: 1rem;
 $base-line-height: 1.8;
+

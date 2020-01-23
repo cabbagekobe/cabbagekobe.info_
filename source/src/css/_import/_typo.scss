@@ -1,42 +1,51 @@
 // Header
 // ---------------------------------
+$font-size-l5: $base-font-size * 11 / 6;
+$font-size-l4: $base-font-size * 11 / 7;
+$font-size-l3: $base-font-size * 11 / 8;
+$font-size-l2: $base-font-size * 11 / 9;
+$font-size-l1: $base-font-size * 11 / 10;
+$font-size-m:  $base-font-size;
+$font-size-s1: $base-font-size * 11 / 12;
+$font-size-s2: $base-font-size * 11 / 13;
+
 h1 {
-  font-size: $base-font-size * 1.8;
+  font-size: $font-size-l5;
   font-weight: bold;
   margin-bottom: $base-font-size * 0.75;
   margin-top: $base-font-size * 1;
 }
 
 h2 {
-  font-size: $base-font-size * 1.6;
+  font-size: $font-size-l4;
   font-weight: bold;
   margin-bottom: $base-font-size * 0.5;
   margin-top: $base-font-size * 1.8;
 }
 
 h3 {
-  font-size: $base-font-size * 1.45;
+  font-size: $font-size-l3;
   font-weight: bold;
   margin-bottom: $base-font-size * 0.75;
   margin-top: $base-font-size * 1.7;
 }
 
 h4 {
-  font-size: $base-font-size * 1.30;
+  font-size: $font-size-l2;
   font-weight: bold;
   margin-bottom: $base-font-size * 0.75;
   margin-top: $base-font-size * 1.5;
 }
 
 h5 {
-  font-size: $base-font-size * 1.15;
+  font-size: $font-size-l1;
   font-weight: bold;
   margin-bottom: $base-font-size * 0.75;
   margin-top: $base-font-size * 1.5;
 }
 
 h6 {
-  font-size: $base-font-size * 1;
+  font-size: $font-size-m;
   font-weight: bold;
   margin-bottom: $base-font-size * 0.75;
   margin-top: $base-font-size * 1.25;
@@ -45,7 +54,7 @@ h6 {
 // Paragraph
 // ---------------------------------
 p {
-  font-size: $base-font-size * 1;
+  font-size: $font-size-m;
   margin-bottom: $base-font-size * 0.5;
   margin-top: $base-font-size * 1;
 }
@@ -57,7 +66,7 @@ h1 + p, h2 + p, h3 + p, h4 + p, h5 + p, h6 + p {
 // Small
 // ---------------------------------
 small {
-  font-size: $base-font-size * 0.8;
+  font-size: $font-size-s2;
 }
 
 // Link
@@ -72,7 +81,7 @@ pre, code, kbd, samp {
   -webkit-font-smoothing: auto;
   color: $text-link;
   font-family: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
-  font-size: $base-font-size * 0.9;
+  font-size: $font-size-s1;
   letter-spacing: normal;
   line-height: $base-line-height * 0.9;
 }
@@ -80,7 +89,7 @@ pre, code, kbd, samp {
 pre {
   background-color: #F0F0F0;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-  font-size: $base-font-size * 0.8;
+  font-size: $font-size-s2;
   margin: 0 0.1rem;
   overflow: scroll;
   padding: 0.2rem 0.4rem;
@@ -93,7 +102,7 @@ pre > code {
 p > code {
   background-color: #F0F0F0;
   box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-  font-size: $base-font-size * 0.8;
+  font-size: $font-size-s2;
   margin: 0 0.4rem;
   padding: 0.2rem 0.4rem;
   vertical-align: text-bottom;
