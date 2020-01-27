@@ -1,11 +1,13 @@
 // Color
 // ---------------------------------
 $text: #444444;
-$text-soft: #666666;
-$text-link: #336699;
+$text-soft: lighten($text, 20%);
+$text-link: #4183C4;
 $text-link-hover: lighten($text-link, 20%);
 
 $white: #FFFFFF;
+$gray1: darken($white, 3.5%);
+$gray2: darken($white, 8%);
 
 $main-color:  #5EB954;
 $main-accent: darken($main-color, 18.5%);
@@ -13,7 +15,6 @@ $main-soft:   lighten($main-color, 21%);
 $main-exSoft: lighten($main-color, 42%);
 
 $border: 1px solid #CCCCCC;
-
 
 // Border Radius
 // ---------------------------------
