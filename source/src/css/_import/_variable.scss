@@ -3,7 +3,7 @@
 $text: #444444;
 $text-soft: lighten($text, 20%);
 $text-link: #4183C4;
-$text-link-hover: lighten($text-link, 20%);
+$text-link-hover: darken($text-link, 20%);
 
 $white: #FFFFFF;
 $gray1: darken($white, 3.5%);

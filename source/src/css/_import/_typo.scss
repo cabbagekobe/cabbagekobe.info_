@@ -85,8 +85,6 @@ a {
 // pre, code
 // ---------------------------------
 pre, code, kbd, samp {
-  -moz-osx-font-smoothing: auto;
-  -webkit-font-smoothing: auto;
   color: $text-link;
   font-family: monospace;
   font-size: $font-size-s1;
@@ -95,12 +93,12 @@ pre, code, kbd, samp {
 }
 
 pre {
-  background-color: #F0F0F0;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  background-color: #F2F2F2;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
   font-size: $font-size-s2;
   margin: 0 0.1rem;
   overflow: scroll;
-  padding: 0.2rem 0.4rem;
+  padding: 0.8rem 1.2rem;
   vertical-align: text-bottom;
 }
 
@@ -108,11 +106,11 @@ pre > code {
 }
 
 p > code {
-  background-color: #F0F0F0;
-  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+  background-color: #F2F2F2;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
   font-size: $font-size-s2;
-  margin: 0 0.4rem;
-  padding: 0.2rem 0.4rem;
+  margin: 0 0.1rem;
+  padding: 0.8rem 1.2rem;
   vertical-align: text-bottom;
 }
 
@@ -150,7 +148,7 @@ table {
 
   tr {
     border: $border;
-    padding: .35rem;
+    padding: 0.4rem;
     text-align: left;
 
     &:nth-child(2n) {
@@ -159,11 +157,11 @@ table {
   }
 
   th {
-    padding: .35rem;
+    padding: 0.4rem;
   }
 
   td {
-    padding: .625rem;
+    padding: 0.6rem;
   }
 
   thead {
