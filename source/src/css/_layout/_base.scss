@@ -14,11 +14,10 @@ html {
   color: $text;
   font-family: 'AppleSystem', sans-serif;
   font-size: calc(16px + 0.24vw);
-  height: 100vh;
   line-height: $base-line-height;
   margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 100%;
   word-break: break-all;
   word-wrap: break-word;
 }
