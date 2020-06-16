@@ -10,12 +10,12 @@
     <link rel="alternate" href="https://cabbagekobe.info/2020-05-01-linux-start/"/>
     <id>https://cabbagekobe.info/2020-05-01-linux-start/</id>
     <published>2020-05-01T00:00:00+09:00</published>
-    <updated>2020-06-16T01:24:45+09:00</updated>
+    <updated>2020-06-16T01:28:51+09:00</updated>
     <content type="html">https://cabbagekobe.info
 &lt;h4 id="在宅勤務しています"&gt;在宅勤務しています。&lt;/h4&gt;
 
 &lt;p&gt;4月頭から在宅勤務開始。  &lt;br /&gt;
-開始4日目でいきなり普段使っていたMBPが起動しなくなる。&lt;br /&gt;
+開始4日目でいきなり普段使っていたMBPが起動しなくなる。  &lt;br /&gt;
 （正確には起動して5分くらいでレインボーカーソルくるくる）&lt;/p&gt;
 
 &lt;p&gt;どうにも調べる限りSSDの寿命。  &lt;br /&gt;
@@ -23,7 +23,7 @@
 
 &lt;p&gt;ということでPCを新調。&lt;/p&gt;
 
-&lt;p&gt;以下、Xubuntuをインストールしてセットアップ&lt;/p&gt;
+&lt;p&gt;以下、Xubuntuをインストールしてセットアップ。（20200615更新）&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# とりあえずでパッケージの更新
 yes | sudo apt update &amp;amp;&amp;amp; yes | sudo apt upgrade
